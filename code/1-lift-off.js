@@ -3,8 +3,7 @@
 // ####################################
 
 function liftOff() {
-  let count = 10
- 
+  let count = prompt('Choose a number to count down from')
   while (count > 0) {
     alert(count + '...')
     count = count - 1
