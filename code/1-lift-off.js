@@ -23,6 +23,9 @@ function make1() {
     count = Number(count)
     countby = Number(countby)
     max = Number(max)
+
   }
-  alert('all done !')
+  count = count - countby
+  let leftover = max - count
+  alert('all done ! with ' + leftover + 'left')
 }
