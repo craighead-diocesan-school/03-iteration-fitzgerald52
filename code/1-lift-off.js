@@ -17,11 +17,12 @@ function make1() {
   let count = 0
   let countby = prompt('choose the number the to count up in')
   let max = prompt('choose a maximum number to count up to')
-  while (count<max){
+  while (count<=max){
     alert(count + '...')
     count = count + countby
+    count = Number(count)
+    countby = Number(countby)
+    max = Number(max)
   }
-  count = Number(count)
-  countby = Number(countby)
-  max = Number(max)
+  alert('all done !')
 }
