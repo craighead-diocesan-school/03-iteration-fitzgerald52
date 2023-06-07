@@ -29,5 +29,10 @@ function make2() {
     final = Number(final)
     number = number + 1
   }
-  alert(final)
+  alert('This equals ' + final)
+  let ba = number
+ let average = final / ba 
+ alert( 'the average of these numbers is ' + average )
+
+
 }
