@@ -5,8 +5,8 @@
 function attendees() {
   let count = 0
   let attendeeList = ''
+  let numOfAttendees = prompt('how many attendees ?')
   numOfAttendees = Number(numOfAttendees)
-  let numOfAttendees = prompt('')
   while (count < numOfAttendees) {
     let attendee = prompt('enter a name of attendee')
     attendeeList = attendeeList + attendee + ', '
