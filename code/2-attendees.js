@@ -30,7 +30,7 @@ function make2() {
     number = number + 1
   }
   alert('This equals ' + final)
-  let ba = number
+ let ba = number
  let average = final / ba 
  alert( 'the average of these numbers is ' + average )
 
