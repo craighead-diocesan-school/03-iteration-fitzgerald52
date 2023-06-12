@@ -15,5 +15,5 @@ function factorial() {
    count = count - 1 
    total = count + total 
   }
-alert(total)
+alert(' The factorial is ' + total)
 }
