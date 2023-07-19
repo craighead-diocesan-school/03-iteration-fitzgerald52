@@ -17,6 +17,7 @@ function fibonacci() {
 
   let sequence = 'fibonacci sequence :'
   while (count < max) {
+    //reasigns the new totals
     next = old + prev
     old = prev
     prev = next

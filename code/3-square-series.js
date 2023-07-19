@@ -8,6 +8,7 @@ function squareSeries() {
   let squared = ''
   while (count > 0) {
     let square = count * count
+    //makes sure the loop dosent run forever
     count = count - 1
     squared = squared + ' ' + square
   }
